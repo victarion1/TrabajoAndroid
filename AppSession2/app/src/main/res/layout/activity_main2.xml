@@ -8,8 +8,10 @@
         tools:context=".Main2Activity">
 
     <TextView
-            android:text="Texto plano aqui"
-            android:layout_width="220dp"
-            android:layout_height="392dp" tools:layout_editor_absoluteY="33dp"
-            tools:layout_editor_absoluteX="51dp" android:id="@+id/textView2"/>
+        android:id="@+id/textView2"
+        android:layout_width="270dp"
+        android:layout_height="533dp"
+        android:text="Texto plano aqui"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="33dp" />
 </android.support.constraint.ConstraintLayout>
