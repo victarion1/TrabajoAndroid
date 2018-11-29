@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">AppSession2</string>
     <string name="facebook_app_id">347719392654735</string> <string name="fb_login_protocol_scheme">fb347719392654735</string>
-    <string name="cancel_login">Cancelo el Inicio</string>
-    <string name="error_login">Ocurrio un error al iniciar</string>
+    <string name="cancel_login">Se cancelò la operacion</string>
+    <string name="error_login">Ocurriò un error al iniciar</string>
+    <string name="login_out">Cerrando sesión</string>
 
 </resources>
