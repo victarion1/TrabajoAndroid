@@ -16,15 +16,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        if(AccessToken.getCurrentAccessToken()==null){
-            goLoginScreen();
-        }
+
 
     }
 
     private void goLoginScreen() {
         Intent intent = new Intent(this,LoginActivity.class);
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }
 
@@ -33,5 +30,9 @@ public class MainActivity extends AppCompatActivity {
         LoginManager.getInstance().logOut();
         Toast.makeText(getApplicationContext(),R.string.login_out,Toast.LENGTH_SHORT).show();
         goLoginScreen();
+    }
+
+    public void salir(View view){
+        finish();
     }
 }
