@@ -42,6 +42,28 @@ public class MainActivity extends AppCompatActivity  {
         });
     }
 
+//    @Override
+//    public void onClick(View v) {
+//
+//        int id= v.getId();
+//        switch (id)
+//        {
+//            case R.id.btnFoto:
+//                i = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+//                startActivityForResult(i,cons);
+//                break;
+//        }
+//
+//    }
+
+//    public void init()
+//    {
+//        btn = (Button)findViewById(R.id.btnFoto);
+//        btn.setOnClickListener(this);
+//        imagen = (ImageView)findViewById(R.id.imageView);
+//
+//    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
         super.onActivityResult(requestCode,resultCode,data);
