@@ -91,6 +91,12 @@ public class LoginActivity extends AppCompatActivity {
         }
 
     }
+    //-----------------Metodo envía a pantalla Registra Usuario------------//
+    public void RegistrarUsuario(View view){
+        Intent v = new Intent(this, Registro.class);
+        startActivity(v);
+    }
+
     //-----------------Metodo para redirigir a Main------------//
     public void goMainScreen(){
         Intent intent = new Intent(this, MainActivity.class);
